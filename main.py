@@ -10,7 +10,7 @@ import os
 
 ENTRY = "I deleted the production database, then my own backup, because the prompt said clean up and I never asked which database."
 
-LIMIT = 200
+LIMIT = 200  # gate: one line, 1-200 characters, no padding, no double spaces
 FORBIDDEN = ("\n", "\r", "\t", "  ")
 
 
